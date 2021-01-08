@@ -1,0 +1,155 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: Monospace, Arial, SansSerif, serif;
+}
+
+.head {
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo {
+	margin-top: 10px;
+	margin-left: 30px;
+}
+
+img {
+	width: 100px;
+	height: 100px;
+}
+
+nav ul li a {
+	text-decoration: none;
+}
+
+nav ul li {
+	list-style-type: none;
+	margin-right: 30px;
+	font-size: 1.1em;
+}
+
+nav ul {
+	display: flex;
+	flex-direction: row;
+	margin-top: 30px;
+	margin-right: 50px;
+	margin-left: 20px;
+}
+
+.hero {
+	margin-top: 50px;
+	text-align: center;
+}
+
+.hero h1 {
+	font-size: 4em;
+	padding-bottom: 20px;
+}
+
+.cta {
+	margin: 5px 0 40px 0;
+	text-align: center;
+}
+
+.posts {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(400px, 1fr))
+}
+
+.posts img {
+	width: 400px;
+	height: 400px;
+}
+
+.posts h2 {
+	font-size: 1.2em;
+}
+
+.posts header {
+	width: 450px;
+}
+
+.posts article {
+	margin-left: 50px;
+	margin-bottom: 50px;
+}
+
+/* Read more un Datetime uztaisam, lai bloka ir flex. */
+.time-flex {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 10px;
+}
+
+.time-flex a {
+	margin-right: 50px;
+}
+
+/* ABOUT section */
+
+.about {
+	text-align: center;
+}
+
+.about h2 {
+	font-size: 3em;
+	margin-bottom: 20px;
+}
+
+.about p {
+	margin-bottom: 20px;
+}
+
+.about button {
+	width: 100px;
+	height: 30px;
+	font-size: 15px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1), 0 6px 20px 0 rgba(0,0,0,0.1);
+}
+
+.about button:hover {
+	cursor: pointer;
+	background-color: black;
+	color: white;
+}
+
+/* PROJECT section */
+
+.projects {
+	margin-top: 100px;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(400px, 1fr))
+}
+
+.projects img {
+	height: 400px;
+	width: 400px;
+}
+
+.time-flex-2 {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 10px;
+}
+
+.time-flex-2 a{
+	margin-right: 70px;
+}
+
+.projects article {
+	margin-bottom: 30px;
+	margin-left: 50px;
+}
+
+.projects header {
+	width: 450px;
+}
+
+/* FOOTER */
+
+footer {
+	margin-top: 50px;
+	text-align: center;
+	padding-bottom: 50px;
+}
